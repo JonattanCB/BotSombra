@@ -1,0 +1,6 @@
+CREATE TABLE CATEGORIA(
+    categoriaID SERIAL NOT NULL PRIMARY KEY,
+    nombre VARCHAR(80) NOT NULL,
+    descripcion VARCHAR(255),
+    estado VARCHAR(10)
+)

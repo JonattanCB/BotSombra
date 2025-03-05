@@ -1,0 +1,5 @@
+CREATE TABLE NIVEL(
+    nivelID SERIAL NOT NULL PRIMARY KEY,
+    tipo VARCHAR(1) NOT NULl,
+    poder INT not null
+)
